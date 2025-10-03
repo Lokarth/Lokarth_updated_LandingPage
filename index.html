@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Lokarth — Hero Replica</title>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=share" />
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init('KDkFrjLq-WRjVpkSU'); 
+    </script>
+
+</head>
+
+<body>
+
+    <div class="page">
+        <header>
+            <div class="logo">
+                <img src="./images/lokarth full logo-01-01.png" alt="logo">
+            </div>
+
+            <nav aria-label="Main Navigation">
+                <a>Solutions</a>
+                <a>Services</a>
+                <a>Donation List</a>
+                <a>About Rareblocks</a>
+            </nav>
+
+            <div class="actions">
+                <a class="signin" href="#">Sign in</a>
+                <button class="btn-primary">Create free account</button>
+            </div>
+        </header>
+
+        <main class="hero" role="main" aria-labelledby="main-heading">
+            <div class="hero-content">
+                <!-- left -->
+                <section class="left">
+                    <h1 id="main-heading">Connecting Donors<br />Directly to Verified<br />Charities</h1>
+
+                    <p class="lead">
+                        Support causes that matter — Donate money, food, clothes, or blood directly to verified
+                        charities or
+                        individuals in need, all with transparent tracking and official impact certificates.
+                    </p>
+
+                    <a class="know-more" href="#contact-us-row">Know More</a>
+
+                    <div class="stats" aria-hidden="false">
+                        <div class="stat">
+                            <div class="big">3M+</div>
+                            <div class="small">Charities<br />Registered<br />in India</div>
+                        </div>
+
+                        <!-- <div style="width:18px;height:1px;background:linear-gradient(90deg,#dfe8ea,#fff);margin:0 8px">
+                        </div> -->
+
+                        <div class="stat">
+                            <div class="big">₹1B+</div>
+                            <div class="small">Annual<br />Donations by<br />Individuals</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="right">
+                    <div style="position: relative;">
+                        <img src="images/doner1.png" class="hero-main-img" alt="Hero BG" />
+
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- Coming Soon Section -->
+            <section class="coming-soon">
+                <div class="illustration">
+                    <!-- replace with your own illustration -->
+                    <img src="./images/notify_me.png" alt="notify_me">
+                </div>
+
+                <h2>Something Great Is Coming Soon!</h2>
+                <p>
+                    We're building a platform to simplify donations, create transparency,
+                    and connect people who care with those in need.
+                </p>
+
+                <form class="notify-form">
+                    <input type="email" id="notify-email" placeholder="Enter email address" required>
+                    <button id="notify-btn">Notify Me</button>
+                </form>
+            </section>
+
+
+            <section class="why-lokarth">
+                <h2>Why Lokarth</h2>
+                <div class="features-grid" id="features-container">
+                    <!-- JS will inject feature cards here -->
+                </div>
+            </section>
+
+            <section class="vision-section">
+                <!-- Left Content -->
+                <div class="vision-text">
+                    <h2>Vision</h2>
+                    <p>A world where every donation reaches the<br />right hands, creating lasting positive impact</p>
+                    <ul>
+                        <li>Lokarth works seamlessly across devices to make giving effortless.</li>
+                        <li>Every donation is transparent, verified, and traceable, so you always know your impact.</li>
+                    </ul>
+                    <a href="#" class="btn-download">Download Application</a>
+                </div>
+
+                <div>
+                    <img src="./images/image.png" alt="" class="phone-image">
+                </div>
+
+                <!-- Phone Mockup -->
+                <!-- <div class="phone-mockup">
+                    <h3>Choose How You Want to Make a Difference</h3>
+                    <p>Select a donation type that speaks to your heart — every contribution brings hope and change</p>
+                    <div class="donation-options">
+                        <div class="option">💵 Donate Money</div>
+                        <div class="option active">🩸 Donate Blood</div>
+                        <div class="option">🍎 Donate Food</div>
+                        <div class="option">👕 Donate Clothes</div>
+                    </div>
+                </div> -->
+            </section>
+
+            <section class="impact-section">
+                <h2 class="impact-heading">Multiple Ways to Make an Impact</h2>
+                <p class="subtitle">
+                    Whether it’s money, food, clothes, or blood — Lokarth<br /> connects your kindness with the right
+                    cause.
+                </p>
+
+                <div class="cards-container" id="cardsContainer">
+                    <!-- Cards will be injected here by JS -->
+                </div>
+            </section>
+
+            <!-- Mission Section -->
+            <section class="mission">
+                <div class="mission-text">
+                    <h1>Mission</h1>
+                    <p>
+                        To simplify the donation process, ensure transparency, and provide real-time impact tracking —
+                        connecting verified donors directly with verified charities.
+                    </p>
+                    <a href="#" class="btn-mission">Donate Now</a>
+                </div>
+                <div class="mission-image">
+                    <img src="./images/mission.png" alt="Mission Illustration">
+                </div>
+            </section>
+
+            <section id="contact-us-row" class="contact-us-row">
+                <div class="contact-message">
+                    <img class=chat-img src="./images/Chat.png" alt="chat icon" />
+                    <h2>Want to know more or <br>collaborate with us?</h2>
+                    <p>We’re happy to connect. Drop your details and we’ll get back to you</p>
+                </div>
+                <div class="contact-card">
+                    <form id="contactForm">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="i.e. John Doe" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="contact-email" name="email" placeholder="i.e. john@mail.com" required>
+
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" pattern="\d{10,}" placeholder="i.e. 1234567890" required>
+
+                        <label for="description">Description</label>
+                        <textarea id="description" name="description"
+                            placeholder="Please describe your query or message" rows="4"></textarea>
+
+                        <button type="submit" class="contact-submit">Contact Us</button>
+                    </form>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="footer-logo">
+                        <img src="./images/lokarth full logo-01-01.png" alt="Lokarth Logo" />
+                    </div>
+
+                    <div class="footer-desc">
+                        <p>
+                            Lokarth is a transparent donation platform that helps donors contribute money, food,
+                            clothes, or blood — ensuring every act of giving creates
+                            real impact.
+                        </p>
+                    </div>
+
+                    <div class="footer-contact">
+                        <div>
+                            <i class="fas fa-phone-alt"></i>
+                            <section >
+                                <span>Tel</span><br />
+                                <a href="tel:3104372766">+91 9121208021</a>
+                            </section>
+
+                        </div>
+                        <div class="email">
+                            <i class="fas fa-envelope"></i>
+                            <section>
+                                <span>Mail</span>
+                                <br />
+                                <a href="mailto:unreal@outlook.com">we.lokarth@gmail.com</a>
+                            </section>
+                        </div>
+                        <div class="footer-apps">
+                            <p>Download Our app</p>
+                            <img src="./images/apps.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-links">
+                        <p>Privacy policy</p>
+                        <p>Terms of Use</p>
+                    </div>
+                    <div class="footer-copy">
+                        © 2025 Lokarth – All Rights Reserved
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
